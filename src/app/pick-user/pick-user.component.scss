@@ -1,0 +1,55 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-default{
+  color: red;
+  font-family: sans-serif;
+}
+
+.title-secondary{
+  color: blue;
+}
+
+body{
+  font-size: 16px;
+}
+
+.slider{
+  .slider--title{
+    @extend .title-default;
+    font-size: 1.5rem;
+  }
+  .slider--title__secondary{
+
+  }
+}
+
+
+.header{
+  .header__highlight{
+
+  }
+}
+
+.logo{
+  .logo--link{
+
+  }
+
+  .logo--img{
+
+  }
+}
+
+.menu{
+  .menu--item{
+
+  }
+  .menu--item__active{
+
+  }
+
+}

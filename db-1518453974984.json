@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "question": "Pierwsze. Angular is running in the development mode. Call enableProdMode() to enable the production mode.Angular is running in the development mode. Call enableProdMode() to enable the production mode?",
+      "answers": [
+        "Tak",
+        "Nie",
+        "Byc moze",
+        "Pierwsze"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Drugie. Angular is running in the development mode. Call enableProdMode() to enable the production mode.Angular is running in the development mode. Call enableProdMode() to enable the production mode?",
+      "answers": [
+        "Tak",
+        "Nie",
+        "Byc moze",
+        "Drugie"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Trzecie. Angular is running in the development mode. Call enableProdMode() to enable the production mode.Angular is running in the development mode. Call enableProdMode() to enable the production mode?",
+      "answers": [
+        "Tak",
+        "Nie",
+        "Byc moze",
+        "Trzecie"
+      ]
+    }
+  ]
+}

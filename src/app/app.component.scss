@@ -1,0 +1,13 @@
+.main-box {
+  min-height: 60vh;
+  background-color: #a6b9e2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #97a8ce;
+}
+
+app-quiz {
+  width: 90%;
+}

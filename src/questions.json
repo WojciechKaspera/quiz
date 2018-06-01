@@ -1,0 +1,871 @@
+[{
+  "id": 1,
+  "question": "NaN === NaN",
+  "answers": [
+    "true",
+    "false",
+    "Żadne z powyzszych"
+  ],
+  "category": []
+},
+  {
+    "id": 2,
+    "question": "-0 === 0",
+    "answers": [
+      "true",
+      "false",
+      "Żadne z powyzszych"
+    ],
+    "category": []
+  },
+  {
+    "id": 3,
+    "question": "{} === {}",
+    "answers": [
+      "true",
+      "false",
+      "Żadne z powyższych"
+    ],
+    "category": []
+  },
+  {
+    "id": 4,
+    "question": "[] === []",
+    "answers": [
+      "true",
+      "false",
+      "Żadne z powyższych"
+    ],
+    "category": []
+  },
+  {
+    "id": 5,
+    "question": "['10', '10', '10'].map(parseInt)",
+    "answers": [
+      "[10, 10, 10]",
+      "[10]",
+      "[10, NaN, 2]",
+      "Reference error"
+    ],
+    "category": []
+  },
+  {
+    "id": 6,
+    "question": "1<2<3, 3>2>1",
+    "answers": [
+      "true, true",
+      "true, false",
+      "false, false",
+      "false, true"
+    ],
+    "category": []
+  },
+  {
+    "id": 7,
+    "question": "[10, 10, 10].reduce((a, b) => a + b)",
+    "answers": [
+      "10",
+      "13",
+      "30",
+      "[10, 20, 30]"
+    ],
+    "category": []
+  },
+  {
+    "id": 8,
+    "question": "['a', 'b', 'c'].indexOf('b') === -1",
+    "answers": "['false', 'true', 'b', '1']",
+    "category": []
+  },
+  {
+    "id": 9,
+    "question": "console.log(a) \\n let a = 1",
+    "answers": [
+      "1",
+      "undefined",
+      "Reference Error",
+      "null"
+    ],
+    "category": []
+  },
+  {
+    "id": 10,
+    "question": "console.log(a) \\n var a = 1",
+    "answers": [
+      "1",
+      "undefined",
+      "Reference Error",
+      "null"
+    ],
+    "category": []
+  },
+  {
+    "id": 11,
+    "question": "const tab = [1, 2]; \\n tab.push(3);",
+    "answers": [
+      "[1, 2]",
+      "[1, 2, 3]",
+      "TypeError: Assignment to constant variable.",
+      "undefined"
+    ],
+    "category": []
+  },
+  {
+    "id": 12,
+    "question": "const element = 1 \\n element = 2 \\n console.log(element)",
+    "answers": [
+      "TypeError: Assignment to constant variable.",
+      "2",
+      "1",
+      "undefined"
+    ],
+    "category": []
+  },
+  {
+    "id": 13,
+    "question": "const { a, b } = element; Nazwa tej konstrukcji to:",
+    "answers": [
+      "nie ma takiej konstrukcji",
+      "tworzenie obiektu z elementu",
+      "destrukturyzacja obiektu",
+      "asynchroniczne pobieranie danych"
+    ],
+    "category": []
+  },
+  {
+    "id": 14,
+    "question": "Czy async/await istnieje w ES6?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 15,
+    "question": "Czy konstrukcjia poniższej arrow function jest poprawna? \\n a => a + 1;",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 16,
+    "question": "let text = `mam ${age} lat`; \\n console.log(text);",
+    "answers": [
+      "mam ${age} lat",
+      "mam 12 lat",
+      "mam undefined lat",
+      "Reference Error"
+    ],
+    "category": []
+  },
+  {
+    "id": 17,
+    "question": "Czy arrow function posiada tablice arguments?",
+    "answers": [
+      "tak",
+      "nie",
+      "zależy od kontekstu wywołania",
+      ""
+    ],
+    "category": []
+  },
+  {
+    "id": 18,
+    "question": "Jaki jest zasięg wskaźnika this w arrow function?",
+    "answers": [
+      "dynamiczny",
+      "leksykalny",
+      "zależny od kontekstu wywołania",
+      "żadne z powyższych"
+    ],
+    "category": []
+  },
+  {
+    "id": 19,
+    "question": "Czy var ma zasięg globalny?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 20,
+    "question": "Co zwraca funkcja fetch?",
+    "answers": [
+      "tablicę wyników",
+      "observable",
+      "promise",
+      "JSON"
+    ],
+    "category": []
+  },
+  {
+    "id": 21,
+    "question": "Jaka jest różnica między typami prostymi a złożonymi w JS?",
+    "answers": [
+      "proste należy deklarować na górze zasięgu, złożone w dowolnym miejscu",
+      "proste są przekazywane przez wartość, złożone przez referencje",
+      "proste są przekazywane przez referencje, złożone przez wartość",
+      "proste są wbudowane w JS, złożone trzeba importować"
+    ],
+    "category": []
+  },
+  {
+    "id": 22,
+    "question": "Czy JS to implementacja ECMAScript?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 23,
+    "question": "Czy w ES6 można programować reaktywnie?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 24,
+    "question": "Czy NodeJS to:",
+    "answers": [
+      "serwer aplikacji JS",
+      "środowisko uruchomieniowe JS",
+      "biblioteka JS",
+      "aplikacja JAVA do uruchamiania JS"
+    ],
+    "category": []
+  },
+  {
+    "id": 25,
+    "question": "Czy w JS można używać więcej niż jednego wątku?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 26,
+    "question": "Czy let i const są hoistowane?",
+    "answers": [
+      "tak",
+      "nie",
+      "hoisting pochodzy z JAVY",
+      "tak, ale tylko w funkcji"
+    ],
+    "category": []
+  },
+  {
+    "id": 27,
+    "question": "Aby używać aplikacji JS bez internetu w przeglądarce potrzebujemy:",
+    "answers": [
+      "Webworkerów",
+      "Serviceworkerów",
+      "Nie da się uruchomić aplikacji JS bez Internetu",
+      "AJAX"
+    ],
+    "category": []
+  },
+  {
+    "id": 28,
+    "question": "Czy ES6 to ES2015?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 29,
+    "question": "let digit = parseInt('123abc', 10); \\n console.log(digit);",
+    "answers": [
+      "1230abc",
+      "1230",
+      "123",
+      "NaN"
+    ],
+    "category": []
+  },
+  {
+    "id": 30,
+    "question": "let random = Math.floor(Math.random() * 48 + 1); \\n console.log(random);",
+    "answers": [
+      "liczba z zakresu 0-1",
+      "liczba z zakresu 0-49",
+      "liczba z zakresu 1-48",
+      "liczba z zakresu 1-49"
+    ],
+    "category": []
+  },
+  {
+    "id": 31,
+    "question": "let a; \\n console.log(a === \"\");",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "Reference Error"
+    ],
+    "category": []
+  },
+  {
+    "id": 32,
+    "question": "Czy { a: a } jest równe { a } w ES6?",
+    "answers": [
+      "nie",
+      "tak",
+      "nie ma takiej składni"
+    ],
+    "category": []
+  },
+  {
+    "id": 33,
+    "question": "console.log(\"a\" - 5);",
+    "answers": [
+      "NaN",
+      "a-5",
+      "Type Error",
+      "undefined"
+    ],
+    "category": []
+  },
+  {
+    "id": 34,
+    "question": "console.log(\"a\" + 5);",
+    "answers": [
+      "NaN",
+      "a5",
+      "Type Error",
+      "undefined"
+    ],
+    "category": []
+  },
+  {
+    "id": 35,
+    "question": "W jaki sposób możemy utworzyć kopie tablicy?",
+    "answers": [
+      "Array.from()",
+      "const tab = tab2",
+      "const tab = tab2.map(e => e + 1);",
+      "Object.assign()"
+    ],
+    "category": []
+  },
+  {
+    "id": 36,
+    "question": "Rest i Spread operator:",
+    "answers": [
+      "to nowość w ES7",
+      "nie ma takich operatorów",
+      "operatory, które zapisujemy ...",
+      "pozwalają programować asynchronicznie"
+    ],
+    "category": []
+  },
+  {
+    "id": 37,
+    "question": "Session Storage:",
+    "answers": [
+      "jest usuwany po wyłączaniu karty w przeglądarce",
+      "ciasteczko zapisywane do trzymania sesji",
+      "baza danych wbudowana w przeglądarce",
+      "zarządzanie sesjami użytkownika w nodejs"
+    ],
+    "category": []
+  },
+  {
+    "id": 38,
+    "question": "Local Storage:",
+    "answers": [
+      "pozwala cache'ować aplikacje w przeglądarce",
+      "to baza danych",
+      "nowość w ES6",
+      "narzędzie do pobierania danych z serwera"
+    ],
+    "category": []
+  },
+  {
+    "id": 39,
+    "question": "Notification API:",
+    "answers": [
+      "działa nawet jak nie znajdujemy się na stronie WWW",
+      "funkcjonalność stworzona przez Facebooka do pokazywania wiadomości",
+      "API, który zostanie wdrożony w przyszłości",
+      "element aplikacji mobilnych to wyświetlania wiadomości typu push"
+    ],
+    "category": []
+  },
+  {
+    "id": 40,
+    "question": "Czy za pomocą JS możemy sprawdzić stan baterii komputera użytkownika?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 41,
+    "question": "Aby obsłużyć asynchroniczność w JS potrzebujeny:",
+    "answers": [
+      "promisów",
+      "nie da się, bo JS jest jednowątkowy",
+      "należy użyć zewnętrznych bibliotek, np. Angular",
+      "będzie możliwe w przyszłości za pomocą async/await"
+    ],
+    "category": []
+  },
+  {
+    "id": 42,
+    "question": "Sugar syntactic:",
+    "answers": [
+      "to nowość w ES6",
+      "pozwala ukryć niedoskonałości JS",
+      "pozwala transpilować kod JS do starszych wersji",
+      "nie ma czegoś takiego"
+    ],
+    "category": []
+  },
+  {
+    "id": 43,
+    "question": "Czy nowoczesny JS to język interpretowany?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 44,
+    "question": "Czy da się za pomocą JS programować urządzenia IoT (Internet of things, np. smartwatch)?",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 45,
+    "question": "Jaka biblioteka jest najlepszym przykładem implementacji wzorca fasady:",
+    "answers": [
+      "Angular",
+      "React",
+      "JQuery",
+      "Vue.js"
+    ],
+    "category": []
+  },
+  {
+    "id": 46,
+    "question": "Funkcja super()",
+    "answers": [
+      "stosuje się ją przy dziedziczeniu",
+      "można jej użyć jedynie w obiekcie wbudowanym w JS",
+      "optymalizuje wyszukiwanie w tablicach",
+      "można jej użyć tylko w klasie nadrzędnej"
+    ],
+    "category": []
+  },
+  {
+    "id": 47,
+    "question": "Wielodziedziczenie w JS:",
+    "answers": [
+      "trzeba użyć struktury extends",
+      "pozwala lepiej zastosować architekture OOP",
+      "nie jest możliwe",
+      "jest trudne do zaimplementowania"
+    ],
+    "category": []
+  },
+  {
+    "id": 48,
+    "question": "Enkapsulacja to:",
+    "answers": [
+      "zabezpieczenie przed wyciekiem danych",
+      "zabezpieczenie przed wyciekiem zmiennych",
+      "dziedziczenie po klasach",
+      "nowość w ES7"
+    ],
+    "category": []
+  },
+  {
+    "id": 49,
+    "question": "MVC to:",
+    "answers": [
+      "wzorzec architektoniczny aplikacji",
+      "implementacja dzidziczenia",
+      "sposób w jaki powinno sie projektować wszystkie aplikacje",
+      "architektura języka JS"
+    ],
+    "category": []
+  },
+  {
+    "id": 50,
+    "question": "Closures:",
+    "answers": [
+      "pozwala uzyskać dostęp do usuniętych zmiennych",
+      "pozwala uzyskać dostęp do zmiennych spoza aktualnego zasięgu",
+      "pozwala uzyskać dostęp do pomocniczych funkcji JS (helperów)",
+      "pozwala uzyskać dostęp do zasięgu globalnego"
+    ],
+    "category": []
+  },
+  {
+    "id": 51,
+    "question": "Component decorator:",
+    "answers": [
+      "pochodzi z ES7",
+      "składa się z modułów",
+      "nie można w nim użyć serviców",
+      "bibliotek dzięki, której możemy używać komponentów"
+    ],
+    "category": []
+  },
+  {
+    "id": 52,
+    "question": "Angular 3:",
+    "answers": [
+      "następca Angulara 2, wprowadzający wiele nowości",
+      "nigdy nie istniał",
+      "wersja, której nie powinniśmy używać",
+      "framework, do szybkiego pisania aplikacji internetowych"
+    ],
+    "category": []
+  },
+  {
+    "id": 53,
+    "question": "Service",
+    "answers": [
+      "pozwala przekazywać dane pomiędzy komponentami",
+      "należy go używać tylko z RxJS",
+      "importujemy go w module w tablicy declarations",
+      "importujemy go w module w tablicy imports"
+    ],
+    "category": []
+  },
+  {
+    "id": 54,
+    "question": "Moduł:",
+    "answers": [
+      "każda aplikacja Angularowa ma przynajmniej jeden",
+      "nie jest potrzebny w aplikacji Angularowej",
+      "trzymamy go w komponentach",
+      "nie może mieć serviców"
+    ],
+    "category": []
+  },
+  {
+    "id": 55,
+    "question": "Każdy moduł musi posiadać:",
+    "answers": [
+      "tablicę providers",
+      "tablicę exports",
+      "nazwę",
+      "żadne z powyższych"
+    ],
+    "category": []
+  },
+  {
+    "id": 56,
+    "question": "Component to:",
+    "answers": [
+      "dyrektywa z widokiem",
+      "klasa JS bez constructora",
+      "zbiór funkcji i zmiennych używanych w całej aplikacji",
+      "zostały wprowadzone w Angular 5"
+    ],
+    "category": []
+  },
+  {
+    "id": 57,
+    "question": "Najnowsza wersjia Angulara to:",
+    "answers": [
+      "Angular 5",
+      "Angular 6",
+      "Angular 7",
+      "Angular 5.2"
+    ],
+    "category": []
+  },
+  {
+    "id": 58,
+    "question": "ng g c Login",
+    "answers": [
+      "nie ma takiej komendy",
+      "tworzy nowy komponent",
+      "pozwala się zalogować do firebase",
+      "brakuje w niej parametrów"
+    ],
+    "category": []
+  },
+  {
+    "id": 59,
+    "question": "ng n my-app --style scss --skip-test",
+    "answers": [
+      "nie ma takiej komendy",
+      "uruchamia aplikację bez testów",
+      "tworzy nową aplikację",
+      "w parametrze scss brakuje --"
+    ],
+    "category": []
+  },
+  {
+    "id": 60,
+    "question": "ng serve -o",
+    "answers": [
+      "uruchamia aplikacje i otwiera przeglądarke",
+      "parametr -o nie istnieje, więc zostanie pominięty",
+      "parametr -o nie istnieje, więc zostanie zgłoszony błąd",
+      "komenda globalna, którą możemy uruchomić w dowolnym miejscu na dysku"
+    ],
+    "category": []
+  },
+  {
+    "id": 61,
+    "question": "ng serve --port 4200",
+    "answers": [
+      "w parametrze 4200 brakuje --",
+      "uruchamia aplikacje na porcie 4200 i otwiera przeglądarke",
+      "uruchamia aplikcaje na pierwszym wolnym porcie większym od 4200",
+      "port 4200 nie istnieje"
+    ],
+    "category": []
+  },
+  {
+    "id": 62,
+    "question": "ng n my-app -d",
+    "answers": [
+      "generuje nową aplikacje",
+      "generuje nową aplikacje w katalogu głównym użytkownika",
+      "pokazuje jaką aplikacja będzie mieć strukture w terminalu",
+      "parametr -d nie istnieje"
+    ],
+    "category": []
+  },
+  {
+    "id": 63,
+    "question": "ng g m login",
+    "answers": [
+      "stworzy katalog login",
+      "wygeneruje system logowania",
+      "stworzy model login",
+      "komenda jest niepoprawna"
+    ],
+    "category": []
+  },
+  {
+    "id": 64,
+    "question": "ng g s login -d",
+    "answers": [
+      "stworzy nowy service",
+      "pokaże jaką strukture plików będzie miał service bez tworzenia go",
+      "nie ma sensu tego używać",
+      "komenda jest błędna"
+    ],
+    "category": []
+  },
+  {
+    "id": 65,
+    "question": "ng g c login -m login/login.module",
+    "answers": [
+      "utworzy nowy component i doda go modułu login",
+      "pojawi się błąd podwójnego użycia tej samej nazwy",
+      "-m nie jest aliasem parametru module",
+      "utworzy system logowania"
+    ],
+    "category": []
+  },
+  {
+    "id": 66,
+    "question": "RxJS",
+    "answers": [
+      "to reactive extension for JS",
+      "to recommend extension for JS",
+      "nie da się pisać aplikacji Angular bez niego",
+      "implementacja wzroca EDD z TDD"
+    ],
+    "category": []
+  },
+  {
+    "id": 67,
+    "question": "RxJS observable:",
+    "answers": [
+      "działa tylko kiedy ma subscriber",
+      "tworzymy go gdy chcemy wyświetlić dane w service",
+      "można zrobić tylko na eventach",
+      "RxJS nie posiada czegoś takiego"
+    ],
+    "category": []
+  },
+  {
+    "id": 68,
+    "question": "RxJS subscriber",
+    "answers": [
+      "pobiera dane z formularzy",
+      "możemy go użyć tylko w service",
+      "musi zostać zaimportowany do modułu",
+      "jest nieoptymalny wydajnościowo"
+    ],
+    "category": []
+  },
+  {
+    "id": 69,
+    "question": "RxJS observer",
+    "answers": [
+      "to implementacja wzorca projektowego",
+      "funkcja do wykradania danych",
+      "działa tylko z subscriber",
+      "nie można zakończyć jego działania"
+    ],
+    "category": []
+  },
+  {
+    "id": 70,
+    "question": "Angular Router:",
+    "answers": [
+      "posiada tylko jeden <router-outlet>",
+      "używamy go, kiedy aplikacja nie odpowiada",
+      "działa bez importowania, bo jest wbudowany w Angulara",
+      "pozwala przeładowywać stronę"
+    ],
+    "category": []
+  },
+  {
+    "id": 71,
+    "question": "Routing służy do:",
+    "answers": [
+      "nawigowania w aplikacji",
+      "powinno się używać tylko w skomplikowanych aplikacjach",
+      "łączy aplikacje (klient) z serwerem",
+      "pozwala pobierać dane z serwera"
+    ],
+    "category": []
+  },
+  {
+    "id": 72,
+    "question": "MVC/MVVM/MV*",
+    "answers": [
+      "wzorce architektoniczne aplikacji",
+      "pozwalają użyć modułów i komponentów",
+      "mówią w jaki sposób połączyć frontend z backendem",
+      "dotyczą tylko Angulara"
+    ],
+    "category": []
+  },
+  {
+    "id": 73,
+    "question": "W Angularze możemy tworzyć tylko aplikacje przeglądarkowe:",
+    "answers": [
+      "tak",
+      "nie"
+    ],
+    "category": []
+  },
+  {
+    "id": 74,
+    "question": "Tablica providers służy do:",
+    "answers": [
+      "importowania komponentów",
+      "importowania modułów",
+      "importowania serviców",
+      "importowania modeli"
+    ],
+    "category": []
+  },
+  {
+    "id": 75,
+    "question": "Typescript to:",
+    "answers": [
+      "nadzbiór JS",
+      "podzbiór JS",
+      "jest konieczny w aplikacjach JS",
+      "jego twórcą jest Google"
+    ],
+    "category": []
+  },
+  {
+    "id": 76,
+    "question": "Typescript wprowadza:",
+    "answers": [
+      "typowanie",
+      "klasy",
+      "obsługę typów w przeglądarce",
+      "obsługę klas w przeglądarce"
+    ],
+    "category": []
+  },
+  {
+    "id": 77,
+    "question": "Strukturą pochodzącą z TypeScript jest:",
+    "answers": [
+      "interface",
+      "class",
+      "promise",
+      "async/await"
+    ],
+    "category": []
+  },
+  {
+    "id": 78,
+    "question": "ng build",
+    "answers": [
+      "tworzy aplikację, którą można deployować",
+      "tworzy aplikację zoptymalizowaną pod kątem testów",
+      "nie można użyć tej komendy bez parametru --prod",
+      "tworzy aplikację bez optymalizacji JS"
+    ],
+    "category": []
+  },
+  {
+    "id": 79,
+    "question": "Websockety to:",
+    "answers": [
+      "sposób na komunikację klient - server",
+      "część specyfikacji JS",
+      "nowość w ES6",
+      "pozwalaja używać aplikacje bez dostępu do internetu"
+    ],
+    "category": []
+  },
+  {
+    "id": 80,
+    "question": "Angular, Reactjs, Vue:",
+    "answers": [
+      "to biblioteki JS do pisania aplikacji internetowych",
+      "to ta sama biblioteka pod różnymi nazwami",
+      "Vue to nie jest biblioteka JS",
+      "Angular rozwiązuje wszystkie problemy związane z pisaniem aplikacji"
+    ],
+    "category": []
+  },
+  {
+    "id": 81,
+    "question": "Znacznik <div>",
+    "answers": [
+      "nie powinniśmy go używać, bo jest niesemantyczny",
+      "zastępuje inne znaczniki",
+      "jest potrzebny do dodawania tekstów",
+      "można go dodać w dowolne miejsce w drzewie DOM"
+    ],
+    "category": []
+  },
+  {
+    "id": 82,
+    "question": "HTML:",
+    "answers": [
+      "jest parsowany od góry do dołu",
+      "nie będzie działał jeżeli użyjemy znacznika, który nie istnieje w specyfikacji",
+      "powinniśmy go tworzyć za pomocą JS",
+      "nie powinno się w nim używać liniowego CSS"
+    ],
+    "category": []
+  }
+]

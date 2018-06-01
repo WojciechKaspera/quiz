@@ -1,0 +1,16 @@
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+.button-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  span {
+    position: absolute;
+    top: 50px;
+  }
+  .error{
+    color: red;
+  }
+}

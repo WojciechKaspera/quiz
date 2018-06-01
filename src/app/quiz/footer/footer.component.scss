@@ -1,0 +1,23 @@
+.button-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  button {
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    //background-color: #5958ad;
+    //&:hover {
+    //  background-color: #6e79ad;
+    //}
+  }
+  @media screen and (max-width: 550px) {
+    width: 70%;
+  }
+  @media screen and (max-width: 380px) {
+    width: 90%;
+  }
+}
+
+
