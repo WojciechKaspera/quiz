@@ -5,6 +5,7 @@ import 'rxjs/add/operator/map';
 import {TopListEntry} from "../models/top-list-entry.interface";
 import {Router} from "@angular/router";
 import {AngularFireDatabase, AngularFireList} from 'angularfire2/database';
+import {Observer} from 'rxjs/Observer';
 
 @Injectable()
 export class UserService {
